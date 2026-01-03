@@ -13,7 +13,10 @@ source .venv/bin/activate
 ```
 
 ```bash
-sudo apt update -y && sudo apt upgrade -y && sudo apt install -y portaudio19-dev python3-all-dev ffmpeg alsa-utils python3-pip && sudo pip install uv && sudo modprobe snd-dummy
+sudo apt update -y && sudo apt upgrade -y && sudo apt install -y \
+portaudio19-dev python3-all-dev ffmpeg alsa-utils pipx && \
+pipx install uv && \
+sudo modprobe snd-dummy
 ```
 
 ---
