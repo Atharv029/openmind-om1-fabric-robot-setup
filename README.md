@@ -47,7 +47,7 @@ uv venv
 2. log in with same account which you are using to do openmind testnet  
 3. Click on **“Purchase Credits”** in the top-right menu and add **5 USDC**   
 4. Click on **“Create API Key”** to generate your key.  
-5. Copy and save it — you **won’t be able to view it again** after closing the window.  
+5. Copy and save it you **won’t be able to view it again** after closing the window.  
 
 ---
 
