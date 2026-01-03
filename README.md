@@ -8,8 +8,6 @@ In this guide, I will show you that how to install and run the **OM1 Agent** on 
 
 ```bash
 screen -S openmind 
-python3 -m venv .venv
-source .venv/bin/activate
 ```
 
 ```bash
@@ -46,6 +44,7 @@ cd OM1
 pip install uv
 git submodule update --init
 uv venv
+source .venv/bin/activate
 ```
 
 ---
