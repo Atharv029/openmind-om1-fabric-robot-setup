@@ -1,6 +1,6 @@
-# 🤖 Deploy Your First Robot on OpenMind Fabric Portal (Linux)
+# Deploy Your First Robot on OpenMind Fabric Portal (Linux)
 
-In this guide, you’ll learn how to install and run the **OM1 Agent** on a Linux system step-by-step.
+In this guide,i will show you that how to install and run the **OM1 Agent** on a Linux system step-by-step.
 
 ---
 
