@@ -79,6 +79,29 @@ nano .env
 
 Run your node inside a `screen` session so it stays active even if you close your terminal.
 
+since we using bps whihc do not have audio input so we have to remove thta part from config 
+
+```bash
+naono config/conversation.json5
+
+you willl see something like this:
+
+"agent_inputs": [
+  {
+    "type": "GoogleASRInput",
+    "config": {
+      "enable_tts_interrupt": true
+    }
+  }
+]
+
+so delete all thing whihc present inside the agent_input and make it to like
+
+"agent_inputs": [
+]
+
+```
+
 ```bash
 uv run src/run.py conversation
 ```
