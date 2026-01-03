@@ -82,7 +82,7 @@ Run your node inside a `screen` session so it stays active even if you close you
 since we using bps whihc do not have audio input so we have to remove thta part from config 
 
 ```bash
-naono config/conversation.json5
+nano config/conversation.json5
 
 you willl see something like this:
 
