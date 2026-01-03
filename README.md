@@ -7,6 +7,12 @@ In this guide, I will show you that how to install and run the **OM1 Agent** on 
 ##  1. Install Required Packages
 
 ```bash
+screen -S openmind 
+python -m venv .venv
+source .venv/bin/activate
+```
+
+```bash
 sudo apt update -y && sudo apt upgrade -y && sudo apt install -y portaudio19-dev python3-all-dev ffmpeg alsa-utils python3-pip && sudo pip install uv && sudo modprobe snd-dummy
 ```
 
@@ -70,15 +76,6 @@ nano .env
 ## 7. Start the Node in a Screen Session
 
 Run your node inside a `screen` session so it stays active even if you close your terminal.
-
-```bash
-screen -S openmind
-```
-
-```bash
-cd ~/OM1
-source .venv/bin/activate
-```
 
 ```bash
 uv run src/run.py conversation
