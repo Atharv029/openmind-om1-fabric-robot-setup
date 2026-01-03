@@ -118,7 +118,7 @@ uv run src/run.py conversation
 
 ---
 
-## 💡 Tips
+## Tips
 
 - If you get **“401 Insufficient Balance”**, top up your balance and restart your node.  
 - Always run OM1 inside a `screen` session to keep it active even after closing your terminal.  
@@ -126,7 +126,7 @@ uv run src/run.py conversation
 
 ---
 
-### 🧾 License & Credits
+### License & Credits
 
 This guide is based on official OpenMind installation instructions.  
-For the latest setup updates, visit [OpenMind Fabric Portal](https://fabric.openmindnetwork.xyz).
+For the latest setup updates, visit [OpenMind Fabric Portal](https://fabric.openmind.org/).
